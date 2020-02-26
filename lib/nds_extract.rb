@@ -106,6 +106,7 @@ def movies_with_directors_set(source)
     movie_counter += 1
   end
   director_coll
+  binding.pry
 end
 
 # ----------------    End of Your Code Region --------------------
