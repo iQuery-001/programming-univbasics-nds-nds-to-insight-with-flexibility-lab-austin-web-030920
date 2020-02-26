@@ -105,6 +105,7 @@ def movies_with_directors_set(source)
     director_coll << movies_with_director_key(source[movie_counter][:name], source[movie_counter][:movies])
     movie_counter += 1
   end
+  director_coll
 end
 
 # ----------------    End of Your Code Region --------------------
