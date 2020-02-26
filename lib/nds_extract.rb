@@ -102,7 +102,7 @@ def movies_with_directors_set(source)
   movie_counter = 0
   director_coll = []
   while movie_counter < source.length do
-    movies_with_director_key(source[movie_counter][:name], source[movie_counter][:movies])
+    director_coll << movies_with_director_key(source[movie_counter][:name], source[movie_counter][:movies])
     movie_counter += 1
   end
 end
