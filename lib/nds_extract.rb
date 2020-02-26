@@ -101,6 +101,9 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   movie_counter = 0
   director_coll = []
+  while movie_counter < source.length do
+    director_coll[movie_counter] = source[:]
+  end
 end
 
 # ----------------    End of Your Code Region --------------------
