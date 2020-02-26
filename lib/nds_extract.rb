@@ -97,13 +97,13 @@ def movies_with_directors_set(source)
   #
   # RETURN:
   #
-  # Array of Hashes containing all of a director's movies. Each movie will need
+  # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
   movie_counter = 0
   director_coll = []
-  # while movie_counter < source.length do
-  #   director_coll[movie_counter] = source[:]
-  # end
+  while movie_counter < source.length do
+    director_coll[movie_counter] = source[movie_counter]
+  end
 end
 
 # ----------------    End of Your Code Region --------------------
